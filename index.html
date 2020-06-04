@@ -9,23 +9,29 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="/image/logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
   </head>
   <body>
-    <div class="container-fluid bg-danger">
-      <nav class="container-fluid navbar nav navbar-expand-lg border-primary">
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++
+    Navigation 
+    ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <div class="container-fluid fixed-top">
+      <nav
+        class="container-fluid navbar nav navbar-expand-lg border-primary p-3 bg-danger"
+      >
         <div class="container d-flex justify-content-around w-100">
-          <div class="d-flex flex-column text-center px-5 border-primary">
+          <div class="d-flex flex-column text-center mr-5">
             <a
               href="#"
-              class="text-white font-weight-light text-decoration-none"
+              class="text-white font-weight-normal text-decoration-none"
               ><i class="fas fa-cloud-sun"></i> 06 Lagos, ng &gt;</a
             >
-            <p class="text-white font-weight-light text-decoration-none">
-              Thu, Jun 04, 2020
+            <p class="text-white font-weight-normal text-decoration-none">
+              Thu, Jun 10, 2020
             </p>
           </div>
-          <div class="col text-center border-warning pl-5">
+          <div class="col text-center pl-5 ml-5 logo">
             <svg
               version="1.1"
               id="Layer_1"
@@ -46,11 +52,61 @@
             </svg>
           </div>
           <div class="col text-white text-center">
-            Login and Submit
+            <a
+              href="#"
+              class="font-weight-bolder text-white text-center text-decoration-none"
+              >Login
+            </a>
+            <button
+              class="btn btn-warning h3 text-uppercase font-weight-bold text-dark m-3 px-4"
+            >
+              Subscribe &gt;
+            </button>
           </div>
         </div>
       </nav>
+
+      <div class="bottom-nav py-2">
+        <ul class="d-flex justify-content-around list-unstyled">
+          <li class="nav-item font-weight-bold border-right pr-2">
+            <a href="#" class="text-dark text-decoration-none">U.S</a>
+          </li>
+          <li class="nav-item font-weight-bold border-right pl-0 pr-2">
+            <a href="#" class="text-dark text-decoration-none">World</a>
+          </li>
+          <li class="nav-item font-weight-bold border-right pr-2">
+            <a href="#" class="text-dark text-decoration-none">Business</a>
+          </li>
+          <li class="nav-item font-weight-bold border-right pr-2">
+            <a href="#" class="text-dark text-decoration-none">
+              Tech & Science</a
+            >
+          </li>
+          <li class="nav-item font-weight-bold border-right pr-2">
+            <a href="#" class="text-dark text-decoration-none">Culture</a>
+          </li>
+          <li class="nav-item font-weight-bold border-right pr-2">
+            <a href="#" class="text-dark text-decoration-none">Newgeeks</a>
+          </li>
+          <li class="nav-item font-weight-bold border-right pr-2">
+            <a href="#" class="text-dark text-decoration-none">Sport</a>
+          </li>
+          <li class="nav-item font-weight-bold border-right pr-2">
+            <a href="#" class="text-dark text-decoration-none">Health</a>
+          </li>
+          <li class="nav-item font-weight-bold border-right pr-2">
+            <a href="#" class="text-dark text-decoration-none">The Debate</a>
+          </li>
+          <li class="nav-item font-weight-bold border-right pr-2">
+            <a href="#" class="text-dark text-decoration-none">Vantage</a>
+          </li>
+          <li class="nav-item font-weight-bold">
+            <a href="#" class="text-dark text-decoration-none">Weather</a>
+          </li>
+        </ul>
+      </div>
     </div>
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
