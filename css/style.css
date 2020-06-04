@@ -11,3 +11,22 @@ body {
 .logo svg {
   fill: white;
 }
+.main-section {
+  height: 150vh;
+  /* background: lawngreen; */
+}
+
+.featured-story {
+  height: 100%;
+  background: aqua;
+}
+
+.top-story {
+  height: 100%;
+  background: navy;
+}
+
+.debate {
+  height: 100%;
+  background: darkgoldenrod;
+}
