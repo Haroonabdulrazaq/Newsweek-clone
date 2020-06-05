@@ -8,17 +8,23 @@ body {
   background: #f4f5f6;
 }
 
+.parent-bg {
+  background: #f4f5f6;
+}
+
 .nav-middle svg {
   fill: white;
 }
 .main-section {
   height: 150vh;
-  /* background: lawngreen; */
+}
+
+.text-black {
+  color: #000;
 }
 
 .featured-story {
   height: auto;
-  background: aqua;
 }
 
 .hover-underline:hover {
@@ -26,11 +32,10 @@ body {
 }
 
 .top-story {
-  height: 100%;
-  background: navy;
+  height: auto;
 }
 
 .debate {
-  height: 100%;
+  height: auto;
   background: darkgoldenrod;
 }
