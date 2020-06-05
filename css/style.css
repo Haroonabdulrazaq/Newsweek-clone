@@ -8,7 +8,7 @@ body {
   background: #f4f5f6;
 }
 
-.logo svg {
+.nav-middle svg {
   fill: white;
 }
 .main-section {
@@ -17,8 +17,12 @@ body {
 }
 
 .featured-story {
-  height: 100%;
+  height: auto;
   background: aqua;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
 }
 
 .top-story {
