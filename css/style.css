@@ -90,7 +90,6 @@ a:hover {
 
 .debate {
   height: auto;
-
   margin: 0;
   padding: 0;
 }
@@ -131,4 +130,11 @@ a:hover {
 .highlight:hover {
   color: #f7435c;
   cursor: pointer;
+}
+
+.opinion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid #ddd;
 }
