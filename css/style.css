@@ -8,6 +8,11 @@ body {
   background: #f4f5f6;
 }
 
+.three-col {
+  background: #fff;
+  height: 500vh;
+}
+
 .parent-bg {
   background: #f4f5f6;
 }
@@ -15,6 +20,7 @@ body {
 .nav-middle svg {
   fill: white;
 }
+
 .main-section {
   height: 150vh;
 }
@@ -29,6 +35,34 @@ body {
 
 .hover-underline:hover {
   text-decoration: underline;
+  text-decoration-color: red;
+  cursor: pointer;
+}
+
+.flex-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  padding-bottom: 0;
+  padding-top: 0.5em;
+}
+
+.img-container {
+  width: 20%;
+}
+.info {
+  width: 90%;
+}
+
+.info-title {
+  color: #000;
+}
+
+.morestory-img {
+  padding-bottom: 2em;
+  width: 6em;
 }
 
 .top-story {
