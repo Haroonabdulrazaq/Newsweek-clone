@@ -1,4 +1,4 @@
-. {
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -13,6 +13,14 @@ body {
   height: 500vh;
 }
 
+a {
+  color: #000;
+}
+
+a:hover {
+  color: red;
+}
+
 .parent-bg {
   background: #f4f5f6;
 }
@@ -21,8 +29,15 @@ body {
   fill: white;
 }
 
+.nav-container {
+  background: #f4f5f6;
+}
+
 .main-section {
   height: 150vh;
+}
+.card {
+  border: 1px solid white;
 }
 
 .text-black {
