@@ -144,3 +144,19 @@ a:hover {
   justify-content: space-around;
   border-bottom: 1px solid #ddd;
 }
+
+.news-letter {
+  background: #f4f5f6;
+  padding: 2em;
+  margin-top: 2em;
+  width: 90%;
+}
+
+.news-letter img {
+  width: 10%;
+  height: 10%;
+}
+
+.news-letter button {
+  background: #f22213;
+}
