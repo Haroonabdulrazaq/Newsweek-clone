@@ -25,6 +25,10 @@ a:hover {
   background: #f4f5f6;
 }
 
+.navbar {
+  background: #f22213;
+}
+
 .nav-middle svg {
   fill: white;
 }
@@ -86,5 +90,45 @@ a:hover {
 
 .debate {
   height: auto;
-  background: darkgoldenrod;
+
+  margin: 0;
+  padding: 0;
+}
+
+.first-debate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 5px solid red;
+  border-bottom: 1px solid #ddd;
+}
+
+.second-debate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 1px solid #ddd;
+  border-bottom: 5px solid blue;
+  margin-top: 1px;
+}
+
+.debator-img {
+  width: 100%;
+}
+
+.debate-text {
+  line-height: 1em;
+}
+
+.author {
+  font-size: 0.8em;
+}
+
+.highlight {
+  color: #000;
+}
+
+.highlight:hover {
+  color: #f7435c;
+  cursor: pointer;
 }
