@@ -3,14 +3,19 @@
   padding: 0;
   margin: 0;
 }
-
 body {
   background: #f4f5f6;
 }
 
+.main-section {
+  height: auto;
+  background: #f4f5f6;
+  margin: 0 auto;
+}
+
 .main-col {
+  background: orangered;
   background: #fff;
-  height: 410vh;
 }
 
 a {
@@ -35,10 +40,6 @@ a:hover {
 
 .nav-container {
   background: #f4f5f6;
-}
-
-.main-section {
-  height: 150vh;
 }
 
 .card {
@@ -77,6 +78,7 @@ a:hover {
 .img-container {
   width: 20%;
 }
+
 .info {
   width: 90%;
 }
@@ -170,6 +172,13 @@ a:hover {
                      IN THE MAGAZINE
 ===================================================================================  */
 
+.in-the-magazine {
+  background: #fff;
+  height: auto;
+  width: 97%;
+  margin: 0 auto;
+}
+
 .first-mag-img {
   height: 90%;
   width: 100%;
@@ -182,11 +191,18 @@ a:hover {
 .mag-first-row {
   border-top: 1px solid #ddd;
 }
-/* .mag-card {
-  background: navy;
-} */
+
+.sec-mag-row {
+  height: 100vh;
+}
+
 .magazine-img {
-  height: 70%;
+  height: 60%;
+  width: 100%;
+}
+
+.magazine-img2 {
+  height: 46%;
   width: 100%;
 }
 
