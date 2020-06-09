@@ -192,9 +192,9 @@ a:hover {
   border-top: 1px solid #ddd;
 }
 
-.sec-mag-row {
-  height: 100vh;
-}
+/* .sec-mag-row {
+  height: auto;
+} */
 
 .magazine-img {
   height: 60%;
@@ -202,7 +202,7 @@ a:hover {
 }
 
 .magazine-img2 {
-  height: 46%;
+  height: 80%;
   width: 100%;
 }
 
