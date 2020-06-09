@@ -8,9 +8,9 @@ body {
   background: #f4f5f6;
 }
 
-.three-col {
+.main-col {
   background: #fff;
-  height: 500vh;
+  height: 410vh;
 }
 
 a {
@@ -157,6 +157,44 @@ a:hover {
   height: 10%;
 }
 
+.news-letter-img {
+  width: 2%;
+  height: 5%;
+}
+
 .news-letter button {
   background: #f22213;
+}
+
+/* ===================================================================================
+                     IN THE MAGAZINE
+===================================================================================  */
+
+.first-mag-img {
+  height: 90%;
+  width: 100%;
+}
+
+.see-feature:hover {
+  background: #e2e4e5;
+}
+
+.mag-first-row {
+  border-top: 1px solid #ddd;
+}
+/* .mag-card {
+  background: navy;
+} */
+.magazine-img {
+  height: 70%;
+  width: 100%;
+}
+
+.anchor-parent a:nth-child(1) {
+  color: white;
+  background: #f22213;
+}
+
+.anchor-parent a:nth-child(2) {
+  color: #f22213;
 }
