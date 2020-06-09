@@ -45,6 +45,23 @@ body {
   background: #fff;
 }
 
+.card-img-top {
+  position: relative;
+}
+
+.tag {
+  background: rgb(248, 235, 235);
+  color: #f22213;
+  position: absolute;
+  top: 13.3em;
+  left: 0;
+  width: 20%;
+  padding: 0.4em;
+  text-align: center;
+  font-weight: 700;
+  z-index: 1;
+}
+
 a {
   color: #000;
 }
@@ -246,4 +263,7 @@ a:hover {
   background: #fff;
   width: 97%;
   margin: 0 auto;
+  padding: 1em 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
