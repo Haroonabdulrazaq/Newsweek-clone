@@ -5,6 +5,34 @@
 }
 body {
   background: #f4f5f6;
+  font-family: "Roboto", sans-serif;
+}
+
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  line-height: 1em;
+}
+
+/* Navigation Styles */
+
+.unordered-list {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: initial;
+  justify-content: space-around;
+}
+.nav-list {
+  padding-top: 1em;
+}
+
+.nav-list a {
+  border-right: 1px solid #ddd;
+  text-align: center;
+  padding: 1em;
 }
 
 .main-section {
@@ -14,7 +42,6 @@ body {
 }
 
 .main-col {
-  background: orangered;
   background: #fff;
 }
 
@@ -174,7 +201,7 @@ a:hover {
 
 .in-the-magazine {
   background: #fff;
-  height: auto;
+  height: 145vh;
   width: 97%;
   margin: 0 auto;
 }
@@ -213,4 +240,10 @@ a:hover {
 
 .anchor-parent a:nth-child(2) {
   color: #f22213;
+}
+
+.editors-pick {
+  background: #fff;
+  width: 97%;
+  margin: 0 auto;
 }

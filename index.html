@@ -9,6 +9,11 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="/image/logo.jpg" type="image/x-icon" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
   </head>
@@ -64,77 +69,74 @@
       </nav>
     </div>
     <!-- +++++++++++++++++++++++++Bottom Nav++++++++++++++++++++++++++ -->
-    <div class="bottom-nav py-2 nav-container">
-      <ul
-        class="d-flex justify-content-around align-items-center list-unstyled bg-white mx-3 mb-0"
-      >
-        <li class="nav-item font-weight-bold">
-          <a href="#" class="text-center text-decoration-none border-right pr-2"
+    <nav class="container-fluid navigation mb-0">
+      <ul class="unordered-list list-unstyled">
+        <li class="nav-list">
+          <a href="#" class="links font-weight-bold text-decoration-none"
             >U.S.</a
           >
         </li>
-        <li class="nav-item font-weight-bold">
-          <a href="#" class="text-center text-decoration-none border-right pr-2"
+        <li class="nav-list">
+          <a href="#" class="links font-weight-bold text-decoration-none"
             >World</a
           >
         </li>
-        <li class="nav-item font-weight-bold">
-          <a href="#" class="text-center text-decoration-none border-right pr-2"
+        <li class="nav-list">
+          <a href="#" class="links font-weight-bold text-decoration-none"
             >Business</a
           >
         </li>
-        <li class="nav-item font-weight-bold">
-          <a
-            href="#"
-            class="text-center text-decoration-none border-right pr-2"
-          >
-            Tech & Science</a
+        <li class="nav-list">
+          <a href="#" class="links font-weight-bold text-decoration-none"
+            >Tech & Science</a
           >
         </li>
-        <li class="nav-item font-weight-bold">
-          <a href="#" class="text-center text-decoration-none border-right pr-2"
+        <li class="nav-list">
+          <a href="#" class="links font-weight-bold text-decoration-none"
             >Culture</a
           >
         </li>
-        <li class="nav-item font-weight-bold">
-          <a href="#" class="text-center text-decoration-none border-right pr-2"
+        <li class="nav-list">
+          <a href="#" class="links font-weight-bold text-decoration-none"
             >Newgeeks</a
           >
         </li>
-        <li class="nav-item font-weight-bold">
-          <a href="#" class="text-center text-decoration-none border-right px-2"
-            >Sport</a
+        <li class="nav-list">
+          <a href="#" class="links font-weight-bold text-decoration-none"
+            >Sports</a
           >
         </li>
-        <li class="nav-item font-weight-bold">
-          <a href="#" class="text-center text-decoration-none border-right pr-2"
+        <li class="nav-list">
+          <a href="#" class="links font-weight-bold text-decoration-none"
             >Health</a
           >
         </li>
-        <li class="nav-item font-weight-bold">
-          <a href="#" class="text-center text-decoration-none border-right pr-2"
+        <li class="nav-list">
+          <a href="#" class="links font-weight-bold text-decoration-none"
             >The Debate</a
           >
         </li>
-        <li class="nav-item font-weight-bold">
-          <a href="#" class="text-center text-decoration-none border-right pr-2"
+        <li class="nav-list">
+          <a href="#" class="links font-weight-bold text-decoration-none"
             >Vantage</a
           >
         </li>
-        <li class="nav-item font-weight-bold">
-          <a href="#" class="text-center text-decoration-none">Weather</a>
+        <li class="nav-list">
+          <a href="#" class="links font-weight-bold text-decoration-none"
+            >Weather</a
+          >
         </li>
-        <li class="nav-item">
+        <li class="nav-list">
           <form action="" class="form-inline">
             <input
               type="text"
               placeholder="Search"
-              class="form-control w-60 border-light"
+              class="form-control w-60 border-light pt-0"
             />
           </form>
         </li>
       </ul>
-    </div>
+    </nav>
     <!-- 
     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     Main three Column Layout
@@ -882,7 +884,7 @@
       ===================================================================================
                            IN THE MAGAZINE
       =================================================================================== -->
-    <div class="container-fluid in-the-magazine bg-warning">
+    <div class="container-fluid in-the-magazine">
       <div class="h5 font-weight-bold mb-0 pb-2 text-center">
         <img src="image/logo.jpg" alt="logo image" class="news-letter-img" />
         IN THE MAGAZINE
@@ -1067,11 +1069,96 @@
       ===================================================================================
                         Editors Pick
       =================================================================================== -->
-    <div class="container-fluid">
+    <div class="container-fluid editors-pick">
       <div class="h5 font-weight-bold mb-0 pb-2 text-center">
         <img src="image/logo.jpg" alt="logo image" class="news-letter-img" />
         EDITOR'S PICK
       </div>
+      <div class="row">
+        <!-- +++++++++++++First Pick++++++++++++++++ -->
+        <div class="card col-12 col-md-3">
+          <img
+            src="https://d.newsweek.com/en/full/1597996/nancy-pelosi.webp?w=397&h=265&f=36f2f24bc61e22934c91fef019e08393"
+            alt="Editor-pick-img"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <div
+              class="card-title h5 font-weight-bold text-black hover-underline"
+            >
+              Stimulus Check Calculator: How Much Could You Get If HEROES Act
+              Passes?
+            </div>
+            <div class="text">
+              Economic impact payments in the HEROES Act are similar to those
+              outlined in the CARES Act, but there is a difference in how
+              payments are allocated for dependents.
+            </div>
+          </div>
+        </div>
+
+        <!-- +++++++++++++Second Pick+++++++++++++++ -->
+        <div class="card col-12 col-md-3">
+          <img
+            src="https://d.newsweek.com/en/full/1597645/mpd.webp?w=397&h=265&f=932661ad9ca4e86ecb22636fdd339809"
+            alt="card"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <div
+              class="card-title h5 font-weight-bold text-black hover-underline"
+            >
+              Minneapolis is Not the First City to Disband Its Police Department
+            </div>
+            <div class="card-text">
+              The city of Camden disbanded its entire police department in 2013
+              and replaced it with a new force covering Camden County.
+            </div>
+          </div>
+        </div>
+
+        <!-- +++++++++++++Third Pick+++++++++++++++ -->
+        <div class="card col-12 col-md-3">
+          <img
+            src="https://d.newsweek.com/en/full/1597703/oregon-coronavirus-march-2020.webp?w=397&h=265&f=433d4537cb90ff0d56c73feacd85aae3"
+            alt="card"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <div
+              class="card-title h5 font-weight-bold text-black hover-underline"
+            >
+              Oregon Sees Highest Single-Day Rise in COVID-19 Cases Since
+              Outbreak Began
+            </div>
+            <div class="card-text">
+              Workplace outbreaks were said to be among the sources of the
+              recent spike in cases, the Oregon Health Authority reports
+            </div>
+          </div>
+        </div>
+        <!-- +++++++++++++++++++++++++FourthPIck+++++++++++++++++++++ -->
+        <div class="card col-12 col-md-3">
+          <img
+            src="https://d.newsweek.com/en/full/1596244/space-force-steve-carell.webp?w=397&h=265&f=0cac828ad72d8ab38fa4e9b37198e523"
+            alt="Editor-pick-img"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <div
+              class="card-title h5 font-weight-bold text-black hover-underline"
+            >
+              'Space Force' on Netflix Beat the U.S. Government to the Trademark
+            </div>
+            <div class="text">
+              "Space Force" on Netflix has beaten the U.S. government to secure
+              the trademark to the name in a number of countries. Here's what
+              that could mean.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Editors pick ends after this div below -->
     </div>
 
     <script
