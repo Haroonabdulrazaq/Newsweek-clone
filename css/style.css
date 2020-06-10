@@ -307,6 +307,13 @@ a:hover {
   border-top: 1px solid #ddd;
 }
 
+/* Subscription style */
+.subscribe-parent {
+  width: 95%;
+  padding: 0;
+  margin: 0 auto;
+}
+
 .subscribe {
   display: flex;
   flex-direction: row;
@@ -314,6 +321,33 @@ a:hover {
   align-items: center;
   padding: 2em;
   background: #f4f5f6;
+  margin-right: 4em;
+}
+
+.newsletter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  border: 1px solid #ddd;
+  padding: 0;
+}
+
+.new-img-con {
+  background: cornflowerblue;
+}
+
+.newsletter-body {
+  padding: 1em;
+}
+.newsletter-body .btn {
+  width: 100%;
+  background: #f22213;
+  color: #fff;
+}
+
+.new-img-con img {
+  width: 100%;
+  height: 100%;
 }
 
 .subbscribe-text {
