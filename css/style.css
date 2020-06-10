@@ -274,3 +274,29 @@ a:hover {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
+.segment-third {
+  width: 100%;
+  padding: 0;
+}
+
+.segments-title {
+  color: #f22213;
+  font-weight: 700;
+}
+
+.segment-text {
+  width: 70%;
+  float: right;
+  padding-left: 1em;
+  line-height: 1em;
+  font-weight: bold;
+}
+
+.segment-img {
+  width: 30%;
+  height: 30%;
+}
+
+.bod {
+  border-top: 1px solid #ddd;
+}
