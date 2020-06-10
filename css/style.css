@@ -313,15 +313,19 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   padding: 2em;
+  background: #f4f5f6;
 }
 
 .subbscribe-text {
-  margin-left: 2em;
-  background: lawngreen;
+  padding: 2em;
+}
+
+.subbscribe-text .btn {
+  background: #f22213;
+  color: white;
 }
 
 .image-parent {
-  background: lightgreen;
   width: 70%;
 }
 
@@ -330,6 +334,6 @@ a:hover {
 }
 .sub-img2 {
   position: absolute;
-  top: 3em;
+  top: 4em;
   left: 6em;
 }
