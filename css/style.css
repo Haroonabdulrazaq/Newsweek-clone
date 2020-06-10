@@ -22,7 +22,7 @@ body {
   background: white;
   display: flex;
   flex-direction: row;
-  align-items: initial;
+  /* align-items: initial; */
   justify-content: space-around;
 }
 .nav-list {
@@ -50,11 +50,11 @@ body {
 }
 
 .tag {
-  background: rgb(248, 235, 235);
+  background: rgba(255, 255, 255, 0.9);
   color: #f22213;
   position: absolute;
-  top: 13.3em;
   left: 0;
+  bottom: 0;
   width: 20%;
   padding: 0.4em;
   text-align: center;
@@ -263,7 +263,14 @@ a:hover {
   background: #fff;
   width: 97%;
   margin: 0 auto;
-  padding: 1em 0;
+  border-top: 1px solid #ddd;
+}
+/* Segments Styling */
+
+.in-segments {
+  background: #fff;
+  width: 97%;
+  margin: 0 auto;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
