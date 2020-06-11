@@ -369,9 +369,7 @@ a:hover {
 }
 
 /* FOOTER STYLING */
-.footer {
-  background: lawngreen;
-}
+
 .footer-top {
   border-bottom: 1px solid #ddd;
   border-top: 1px solid #ddd;
@@ -412,4 +410,18 @@ a:hover {
 
 .link-parent li {
   display: inline-block;
+  cursor: pointer;
+}
+.link-parent li:hover {
+  display: inline-block;
+  color: #000;
+}
+.links {
+  font-size: 0.9em;
+  border-right: 1px solid #ddd;
+  padding: 0 0.5em;
+}
+
+.borderless {
+  border: none;
 }
