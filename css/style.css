@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   background: #f4f5f6;
   font-family: "Roboto", sans-serif;
@@ -14,7 +15,6 @@ body {
 .h5,
 .h6 {
   line-height: 1em;
-   
 }
 
 /* Navigation Styles */
@@ -24,6 +24,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
+
 .nav-list {
   padding-top: 1em;
 }
@@ -34,10 +35,14 @@ body {
   margin: 0 auto;
 }
 
-.nav-right{
+.nav-right {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+a {
+  color: #000;
 }
 
 .nav-list a {
@@ -58,12 +63,6 @@ body {
 
 .card-img-top {
   position: relative;
-}
-
-
- 
-a {
-  color: #000;
 }
 
 a:hover {
@@ -109,7 +108,6 @@ a:hover {
   border-top: 1px solid #ccc;
   padding-bottom: 0;
   padding-top: 0.5em;
-  
 }
 
 .img-container {
@@ -119,7 +117,7 @@ a:hover {
 .info {
   width: 90%;
 }
- 
+
 .morestory-img {
   padding-bottom: 2em;
   width: 6em;
@@ -250,6 +248,7 @@ a:hover {
   margin: 0 auto;
   border-top: 1px solid #ddd;
 }
+
 /* Segments Styling */
 
 .in-segments {
@@ -259,6 +258,7 @@ a:hover {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
+
 .segment-third {
   width: 100%;
   padding: 0;
@@ -320,6 +320,7 @@ a:hover {
 .newsletter-body {
   padding: 1em;
 }
+
 .newsletter-body .btn {
   width: 100%;
   background: #f22213;
@@ -347,6 +348,7 @@ a:hover {
 .sub-img1 {
   position: relative;
 }
+
 .sub-img2 {
   position: absolute;
   top: 4em;
@@ -379,6 +381,7 @@ a:hover {
 .soc-icon i:hover {
   color: cornflowerblue;
 }
+
 .rick {
   font-size: 10px;
 }
@@ -386,7 +389,7 @@ a:hover {
 .svg-con svg {
   width: 80%;
   height: 80%;
- fill: #f22213; 
+  fill: #f22213;
 }
 
 .footer-bottom {
@@ -397,10 +400,12 @@ a:hover {
   display: inline-block;
   cursor: pointer;
 }
+
 .link-parent li:hover {
   display: inline-block;
   color: #000;
 }
+
 .link {
   font-size: 0.9em;
   border-right: 1px solid #ddd;
@@ -411,73 +416,75 @@ a:hover {
   border: none;
 }
 
-/*+++++++++++++++++++++++++++++++++++++++++++++ Tab Media Query  ++++++++++++++++++++++++++++++++++++++++++++++ */ 
+/* +++++++++++++++++++++++++++++++++++++++++++++ Tab Media Query  ++++++++++++++++++++++++++++++++++++++++++++++ */
 
 @media only screen and (max-width: 982px) {
-  .head-logo{
-     width: 50%;
-     height: 50%;
-     fill: white;
+  .head-logo {
+    width: 50%;
+    height: 50%;
+    fill: white;
   }
- 
+
   .navbar {
-   width: 100%;
- }
- .nav-right{
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
- }
- 
- .nav-right i{
-   color: white;
- }
- 
- .info-title,.info-text{
-   margin-left: 11%;
- }
+    width: 100%;
+  }
 
- .sponsored-parent{
-   width: 50%;
-   margin: 0 auto;
- }
+  .nav-right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 
- .in-the-magazine{
-   height: auto;
-   margin-bottom: 13%;
- }
+  .nav-right i {
+    color: white;
+  }
 
- .special-img{
-   width: 100%;
- }
- 
- }
+  .info-title,
+  .info-text {
+    margin-left: 11%;
+  }
 
+  .sponsored-parent {
+    width: 50%;
+    margin: 0 auto;
+  }
 
-/*+++++++++++++++++++++++++++++++++++++++++++++ Mobile Media Query  ++++++++++++++++++++++++++++++++++++++++++++++ */  
-@media only screen and (max-width: 576px){
-  .head-logo{
+  .in-the-magazine {
+    height: auto;
+    margin-bottom: 13%;
+  }
+
+  .special-img {
+    width: 100%;
+  }
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++ Mobile Media Query  ++++++++++++++++++++++++++++++++++++++++++++++ */
+@media only screen and (max-width: 576px) {
+  .head-logo {
     width: 100%;
     height: 100%;
- 
- }
+  }
+
   .navbar {
     width: 100%;
   }
-  .opinion  {
-    width: 100%;
-   }
 
-   .sponsored-parent{
-     margin-top:3% ;
+  .opinion {
     width: 100%;
   }
-  .subscribe{
+
+  .sponsored-parent {
+    margin-top: 3%;
+    width: 100%;
+  }
+
+  .subscribe {
     display: flex;
     flex-direction: column;
   }
-  .subscribe-text{
+
+  .subscribe-text {
     margin-top: 1em;
   }
-
 }
