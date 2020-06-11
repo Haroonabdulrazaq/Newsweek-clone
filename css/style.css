@@ -312,6 +312,7 @@ a:hover {
   width: 95%;
   padding: 0;
   margin: 0 auto;
+  padding-bottom: 3em;
 }
 
 .subscribe {
@@ -330,10 +331,6 @@ a:hover {
   grid-template-rows: 1fr;
   border: 1px solid #ddd;
   padding: 0;
-}
-
-.new-img-con {
-  background: cornflowerblue;
 }
 
 .newsletter-body {
@@ -370,4 +367,42 @@ a:hover {
   position: absolute;
   top: 4em;
   left: 6em;
+}
+
+/* FOOTER STYLING */
+.footer {
+  background: lawngreen;
+}
+.footer-top {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.svg-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.soc-icon i {
+  padding: 0.5em;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.soc-icon i:hover {
+  color: cornflowerblue;
+}
+.rick {
+  font-size: 10px;
+}
+
+.svg-con svg {
+  width: 80%;
+  height: 80%;
+  fill: #f22213;
 }
