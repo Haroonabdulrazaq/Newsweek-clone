@@ -23,7 +23,6 @@ body {
   background: white;
   display: flex;
   flex-direction: row;
-  /* align-items: initial; */
   justify-content: space-around;
 }
 .nav-list {
@@ -405,4 +404,12 @@ a:hover {
   width: 80%;
   height: 80%;
   fill: #f22213;
+}
+
+.footer-bottom {
+  color: #aaa;
+}
+
+.link-parent li {
+  display: inline-block;
 }
