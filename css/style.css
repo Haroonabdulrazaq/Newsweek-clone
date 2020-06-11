@@ -331,11 +331,11 @@ a:hover {
   height: 100%;
 }
 
-.subbscribe-text {
+.subscribe-text {
   padding: 2em;
 }
 
-.subbscribe-text .btn {
+.subscribe-text .btn {
   background: #f22213;
   color: white;
 }
@@ -443,7 +443,6 @@ a:hover {
  }
 
  .in-the-magazine{
- 
    height: auto;
    margin-bottom: 13%;
  }
@@ -468,5 +467,17 @@ a:hover {
   .opinion  {
     width: 100%;
    }
+
+   .sponsored-parent{
+     margin-top:3% ;
+    width: 100%;
+  }
+  .subscribe{
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe-text{
+    margin-top: 1em;
+  }
 
 }
