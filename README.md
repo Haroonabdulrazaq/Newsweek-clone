@@ -2,7 +2,7 @@
 Bootstrap Project [Microverse]
 # Newsweek Clone
 
-![screenshot](./image/Screenshot.png)
+![screenshot](./image/Screenshot.jpg)
  
 ## Built With
 
