@@ -14,11 +14,10 @@ body {
 .h5,
 .h6 {
   line-height: 1em;
-  color: #000;
+   
 }
 
 /* Navigation Styles */
-
 .unordered-list {
   background: white;
   display: flex;
@@ -27,6 +26,18 @@ body {
 }
 .nav-list {
   padding-top: 1em;
+}
+
+.navbar {
+  background: #f22213;
+  width: 97.8%;
+  margin: 0 auto;
+}
+
+.nav-right{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .nav-list a {
@@ -49,19 +60,8 @@ body {
   position: relative;
 }
 
-.tag {
-  background: rgba(255, 255, 255, 0.9);
-  color: #f22213;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 20%;
-  padding: 0.4em;
-  text-align: center;
-  font-weight: 700;
-  z-index: 1;
-}
 
+ 
 a {
   color: #000;
 }
@@ -74,16 +74,8 @@ a:hover {
   background: #f4f5f6;
 }
 
-.navbar {
-  background: #f22213;
-}
-
 .nav-middle svg {
   fill: white;
-}
-
-.nav-container {
-  background: #f4f5f6;
 }
 
 .card {
@@ -117,6 +109,7 @@ a:hover {
   border-top: 1px solid #ccc;
   padding-bottom: 0;
   padding-top: 0.5em;
+  
 }
 
 .img-container {
@@ -126,11 +119,7 @@ a:hover {
 .info {
   width: 90%;
 }
-
-.info-title {
-  color: #000;
-}
-
+ 
 .morestory-img {
   padding-bottom: 2em;
   width: 6em;
@@ -401,7 +390,7 @@ a:hover {
 .svg-con svg {
   width: 80%;
   height: 80%;
-  fill: #f22213;
+ fill: #f22213; 
 }
 
 .footer-bottom {
@@ -416,7 +405,7 @@ a:hover {
   display: inline-block;
   color: #000;
 }
-.links {
+.link {
   font-size: 0.9em;
   border-right: 1px solid #ddd;
   padding: 0 0.5em;
@@ -424,4 +413,51 @@ a:hover {
 
 .borderless {
   border: none;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++ Tab Media Query  ++++++++++++++++++++++++++++++++++++++++++++++ */ 
+
+@media only screen and (max-width: 982px) {
+  .head-logo{
+     width: 50%;
+     height: 50%;
+     fill: white;
+  }
+ 
+  .navbar {
+   width: 100%;
+ }
+ .nav-right{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+ }
+ 
+ .nav-right i{
+   color: white;
+ }
+ 
+ .info-title,.info-text{
+   margin-left: 11%;
+ }
+ 
+ .opinion  {
+  width: 50%;
+ }
+ 
+ }
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++ Mobile Media Query  ++++++++++++++++++++++++++++++++++++++++++++++ */  
+@media only screen and (max-width: 576px){
+  .head-logo{
+    width: 100%;
+    height: 100%;
+ 
+ }
+  .navbar {
+    width: 100%;
+  }
+
+
 }
