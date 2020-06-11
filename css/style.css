@@ -176,7 +176,7 @@ a:hover {
 .opinion {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   border-bottom: 1px solid #ddd;
 }
 
@@ -224,10 +224,6 @@ a:hover {
 .mag-first-row {
   border-top: 1px solid #ddd;
 }
-
-/* .sec-mag-row {
-  height: auto;
-} */
 
 .magazine-img {
   height: 60%;
@@ -440,9 +436,20 @@ a:hover {
  .info-title,.info-text{
    margin-left: 11%;
  }
+
+ .sponsored-parent{
+   width: 50%;
+   margin: 0 auto;
+ }
+
+ .in-the-magazine{
  
- .opinion  {
-  width: 50%;
+   height: auto;
+   margin-bottom: 13%;
+ }
+
+ .special-img{
+   width: 100%;
  }
  
  }
@@ -458,6 +465,8 @@ a:hover {
   .navbar {
     width: 100%;
   }
-
+  .opinion  {
+    width: 100%;
+   }
 
 }
