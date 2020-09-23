@@ -1,6 +1,6 @@
-# Newsweek-clone
-Bootstrap Project [Microverse]
-# Newsweek Clone
+## Newsweek-clone
+Bootstrap Project [Microverse] Its a project focused on learning Bootstrap and building using mobile first approach. Also building responsiveness to the out website
+ 
 
 ![screenshot](./image/Screenshot.jpg)
  
