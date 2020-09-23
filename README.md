@@ -31,6 +31,21 @@ $ cd Newsweek-clone
 
 ```
 
+## Set up
+- Clone this Project to your local machine
+- Change directory into this project
+- Open it in your prefered IDE(Integrated Development Environment)
+
+## Prerequisite
+- Integrated Development Evnvironment
+
+## Test
+- [HTML Validator](https://validator.w3.org/)
+- CSS code linters
+
+## Deployment
+- Deployed Using Github ```gh-pages```
+
 ## Author
 
 👤 **Haroon Abdulrazaq**
